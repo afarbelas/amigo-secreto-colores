@@ -37,8 +37,8 @@ function App() {
 
     const endpoint =
       mode === 'register'
-        ? 'http://localhost:3001/api/register'
-        : 'http://localhost:3001/api/consultar'
+        ? '/api/register'
+        : '/api/consultar'
 
     try {
       const response = await fetch(endpoint, {
