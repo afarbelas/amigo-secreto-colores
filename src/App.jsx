@@ -242,6 +242,8 @@ function App() {
           <span>Tu color es secreto. Solo tú podrás verlo.</span>
         </div>
       </section>
+      
+      <p className="signature">by afarbelas</p>
     </main>
   )
 }
